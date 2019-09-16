@@ -30,8 +30,10 @@ class BookList extends Component {
 }
 
 // Binds the getBooksQuery query to the BookList component, so we have 
-// access in the component to all the data returned by the query.
-// The data is stored in the component's props.
+// access in the component to the data object returned by the query.
+
+// THE DATA OBJECT IS STORED ON THE COMPONENT'S PROPS!!!
+
 // Does graphql(getBooksQuery) return a function that is called and passes BookList?
 // Not sure as logging graphql(getBooksQuery) doesn't log a function...
 // console.log('graphql(getBooksQuery)', graphql(getBooksQuery));
